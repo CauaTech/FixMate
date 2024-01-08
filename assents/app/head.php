@@ -11,7 +11,7 @@ include($flow.'assents/app/alert.php');
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--Importando Logo da Pagina-->
-<link rel="shortcut icon" href="<?php echo $flow;?>assents/img/logo/64x64Orange.png">
+<link rel="shortcut icon" href="<?php echo $flow;?>assents/img/logo/logo.png">
 
 <!--Importando Bootstrap Assents-->
 <link rel="stylesheet" type="text/css" href="<?php echo $flow;?>assents/css/bootstrap.min.css">
@@ -35,3 +35,6 @@ include($flow.'assents/app/alert.php');
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>

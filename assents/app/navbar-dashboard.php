@@ -10,9 +10,13 @@
 
 	    <div class="collapse navbar-collapse justify-content-end" id="nav">
 	    	<ul class="navbar-nav">
+				<a href="<?php echo $flow ?>" class="item_nav">Dashboard</a>
+		    	<a href="<?php echo $flow ?>" class="item_nav">Orçamento</a>
+		    	<a href="<?php echo $flow ?>" class="item_nav">Estoque</a>
+		    	<a href="<?php echo $flow ?>" class="item_nav">Financeiro</a>
 		    	<a href="<?php echo $flow ?>" class="item_nav btn btn-vortex">
 		    		<i class="fa-regular fa-user"></i>
-		    			Entrar em Contato
+		    		JpCell
 		    	</a>
 	    	</ul>
 	    </div>
@@ -22,13 +26,13 @@
 
 <style type="text/css">
 	.vortex-navbar{
-		background-color: #ffff;
+		background-color: #fff;
 	}
 	.item_nav{
 		display: block;
   		padding: 0.5rem 1rem;
 		text-decoration: none;
-		color: #fff;
+		color: black;
 		font-size: 13px;
 	}
 	.item_nav:hover{
@@ -37,7 +41,7 @@
 		color: #c2c2c2;
 	}
 	.btn-vortex{
-		background-color: #00B9FF
-;
+		background-color: #00B9FF;
+		color: #fff;
 	}
 </style>

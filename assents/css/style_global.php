@@ -58,4 +58,142 @@
 		color: #fff;
 		margin-top: 25px;
 	}
+
+	.bg-dashboard{
+		background-color: #F0F5FC;
+	}
+	.card-inputs{
+		border: 0;
+		border-radius: 0;
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		font-weight: 200;
+	}
+	.card-inputs:hover{
+		background-color: #f0f0f0;
+		transition: 200ms;
+	}
+	.btn-inputs{
+		width: 100%;
+		margin-top: 25px;
+	}
+
+
+	.fix-responsive{
+		overflow-x: auto;
+	}
+	.fix-margin{
+		margin-top: 40px;
+	}
+
+	.table-phone{
+		margin-top: 40px;
+	}
+	.fix-thead{
+		background-color: #00B9FF;
+		color: #fff;
+		border: 0;
+	}
+	.fix-codigo{
+		background-color: #00B9FF;
+		border: 0;
+	}
+	.fix-phone{
+		background-color: #fcba03;
+		border: 0;
+	}
+	.fix-status{
+		background-color: #14fc03;
+	}
+	.btn-whats{
+		background-color: #14fc03;
+		border: 0;
+		color: #fff;
+	}
+	.btn-lixeira{
+		background-color: #ff3030;
+		border: 0;
+		color: #fff;
+	}
+	.btn-entrega{
+		background-color: #fff130;
+		border: 0;
+		color: black;
+	}
+
+
+
+
+
+
+	/* ------------css monkey---------- */
+	.fixhome-header{
+		color: #ffff;
+		min-height: 400px;
+		background-color: #00B9FF;
+		margin-bottom: 12vh;
+	}
+	.captacao-text{
+		margin-top: 15vh;
+		color: #fff	;
+		font-size: 15px;
+		font-weight: 500;
+	}
+	.form-captacao{
+		margin-top: 15px;
+	}
+	.fixcaptacao{
+		margin-bottom: 15vh;
+		background-color: #ffff;
+		border: none;
+	}
+	.captacao-button{
+		margin-top: 15px;
+		margin-bottom: 15vh;
+	}
+	.btn-captacao{
+		background-color: #fff;
+	}
+	.fix-parceiros{
+		min-height: 400px;
+	}
+	.loja-title{
+		font-size: 25px;
+		font-weight: 500;
+	}
+	.fix-parceiros-card{
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+	.img-parceiro{
+		border: none;
+	}
+	.parceiro-name{
+		margin-top: 12.9px;
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.parceiro-info{
+		font-size: 15px;
+	}
+	.fix-second-cap{
+		margin-bottom: 30px;
+	}
+	.secondcap-title{
+		margin-bottom: 25px;
+	}
+	.form-cap-input{
+		max-height: 40px;
+		border: 0;
+		border-radius: 0;
+		background-color: #f0f0f0;
+		margin-top: 25px;
+		max-width: 400px;
+	}
+	.btn-cap{
+		margin-top: 25px;
+		color: #ffff;
+		background-color: #00B9FF;
+	}
 </style>
