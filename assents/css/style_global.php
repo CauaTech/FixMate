@@ -121,6 +121,32 @@
 		border: 0;
 		color: black;
 	}
+	.fix-modal{
+		border: 0;
+	}
+	.modal-fheader{
+		background-color: #00B9FF;
+		color: #fff;
+		border: 0;
+	}
+	.form-modal{
+		background-color: #f0f0f0;
+		border: 0;
+		border-radius: 0;
+	}
+	.modal-inputs{
+		margin-top: 15px;
+	}
+	.btn-modal{
+		background-color: #00B9FF;
+		border: 0;
+		color: #fff;
+	}
+	.btn-modal:hover{
+		transition: 150ms;
+		color: #fff;
+		background-color: #009dd9;
+	}
 
 
 
