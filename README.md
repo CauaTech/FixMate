@@ -2,7 +2,7 @@
 <br>
 Este é um sistema desenvolvido para auxiliar lojas de assistência técnica de celulares na gestão de clientes, dispositivos e reparos.
 <br>
-## Funcionalidades Principais
+<h3>Funcionalidades Principais</h3>
 
 - Cadastro de clientes e dispositivos.
 - Geração de orçamentos baseados em problemas relatados.
@@ -11,6 +11,6 @@ Este é um sistema desenvolvido para auxiliar lojas de assistência técnica de 
 - Agendamento de reparos e gestão de estoque.
 
 <br> 
-## Contato
+<h3>Contato</h3>
 
 Para mais informações, entre em contato pelo email [cauadias9730@gmail.com].
