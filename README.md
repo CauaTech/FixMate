@@ -14,3 +14,5 @@ Este é um sistema desenvolvido para auxiliar lojas de assistência técnica de 
 <h3>Contato</h3>
 
 Para mais informações, entre em contato pelo email [cauadias9730@gmail.com].
+
+- Dashboard [30%]
