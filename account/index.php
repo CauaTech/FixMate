@@ -89,7 +89,7 @@ if ($int == 0) {
 					</button>
 				</div>
 				<div class="col-md-4">
-					<button class="btn btn-inputs" class="">
+					<button class="btn btn-inputs" data-bs-toggle="modal" data-bs-target="#estoque-gerenciar">
 						<div class="card card-inputs">
 							<div class="card-body">
 								<center>
@@ -148,6 +148,12 @@ if ($int == 0) {
 		</div>
 	</div>
 </div>
+
+
+<?php include($flow.'assents/app/modals/cliente-modal.php'); ?>
+<?php include($flow.'assents/app/modals/estoque-modal.php'); ?>
+<?php include($flow.'assents/app/modals/orcamento-modal.php'); ?>
+<?php include($flow.'assents/app/modals/phone-modal.php'); ?>
 
 
 <!-- Finalizar/Body -->
