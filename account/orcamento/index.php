@@ -1,5 +1,5 @@
 <?php 
-$int = 1;
+$int = 2;
 if ($int == 0) {
 	$flow = "./";
 }elseif ($int == 1) {
@@ -22,7 +22,7 @@ if ($int == 0) {
 
 <!--HEAD COMPLETO-->
 <head>
-	<title>JpCell</title>
+	<title>JpCell - Orçamanetos</title>
 	<meta name="language" content="pt-BR">
 	<meta name="description" content="">
 	
@@ -44,76 +44,77 @@ if ($int == 0) {
 <?php include($flow.'assents/app/navbar-dashboard.php'); ?>
 
 <!-- Body -->
-
-<div class="fix-dashboard">
+<div class="orcamento">
 	<div class="container">
-		<div class="dashboard-body">
+		<div class="orcamento-card">
 			<div class="row">
 				<div class="col-md-4">
-					<button class="btn btn-inputs" data-bs-toggle="modal" data-bs-target="#clintes_cadastrar">
-						<div class="card card-inputs">
-							<div class="card-body">
-								<center>
-									<i class="fi fi-rr-user-add"></i>
-									<br>
-									Cadastro de Clientes
-								</center>
+					<div class="card card-orcamento">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-widgets">
+										<i class="fa-solid fa-mobile-screen-button widgets-icon"></i>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="widgets-name">
+										Reparos Pendentes :
+									</div>
+									<div class="widgets-info">
+										25
+									</div>
+								</div>
 							</div>
 						</div>
-					</button>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<button class="btn btn-inputs" data-bs-toggle="modal" data-bs-target="#phone_cadastrar">
-						<div class="card card-inputs">
-							<div class="card-body">
-								<center>
-									<i class="fi fi-tr-mobile-button"></i>
-									<br>
-									Registro de Dispositivos
-								</center>
+					<div class="card card-orcamento">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-widgets">
+										<i class="fa-solid fa-receipt widgets-icon"></i>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="widgets-name">
+										Orçamentos Feitos 
+									</div>
+									<div class="widgets-info">
+										4
+									</div>
+								</div>
 							</div>
 						</div>
-					</button>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<button class="btn btn-inputs" data-bs-toggle="modal" data-bs-target="#garar_orcamento">
-						<div class="card card-inputs">
-							<div class="card-body">
-								<center>
-									<i class="fi fi-rr-file-invoice-dollar"></i>
-									<br>
-									Geração de Orçamentos
-								</center>
+					<div class="card card-orcamento">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-widgets">
+										<i class="fa-solid fa-mobile-screen-button widgets-icon"></i>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="widgets-name">
+										Celulares Entregues
+									</div>
+									<div class="widgets-info">
+										9
+									</div>
+								</div>
 							</div>
 						</div>
-					</button>
+					</div>
 				</div>
-				<div class="col-md-4">
-					<button class="btn btn-inputs" data-bs-toggle="modal" data-bs-target="#estoque-gerenciar">
-						<div class="card card-inputs">
-							<div class="card-body">
-								<center>
-									<i class="fi fi-ts-truck-loading"></i>
-									<br>
-									Gestão de Estoque
-								</center>
-							</div>
-						</div>
-					</button>
-				</div>
-				<div class="col-md-4">
-					<button class="btn btn-inputs" data-bs-toggle="modal" data-bs-target="#suport">
-						<div class="card card-inputs">
-							<div class="card-body">
-								<center>
-									<i class="fi fi-tr-customer-service"></i>
-									<br>
-									Suporte Técnico
-								</center>
-							</div>
-						</div>
-					</button>
-				</div>
+			</div>
+		</div>
+		<div class="orcamento-table">
+			<div class="row">
 				<div class="col-md-12">
 					<div class="fix-responsive fix-margin">
 						<table id="example" class="table-phone" style="width:100%">
@@ -149,14 +150,6 @@ if ($int == 0) {
 	</div>
 </div>
 
-
-<?php include($flow.'assents/app/modals/cliente-modal.php'); ?>
-<?php include($flow.'assents/app/modals/estoque-modal.php'); ?>
-<?php include($flow.'assents/app/modals/orcamento-modal.php'); ?>
-<?php include($flow.'assents/app/modals/phone-modal.php'); ?>
-<?php include($flow.'assents/app/modals/suport-modal.php'); ?>
-
-
 <!-- Finalizar/Body -->
 
 <!--Ativar Footer Editar-->
@@ -164,6 +157,7 @@ if ($int == 0) {
 
 <!--Import Cookie Enable-->
 <?php include($flow.'assents/app/cookie.php'); ?>
+
 
 <script type="text/javascript">
 	new DataTable('#example', {
@@ -173,7 +167,6 @@ if ($int == 0) {
 	    paging: false
 	});
 </script>
-
 
 </body>
 </html>
