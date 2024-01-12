@@ -12,26 +12,33 @@
     		<div class="col-md-6">
     			<div class="modal-inputs">
     				<label class="title-form">Cliente</label>
-    				<select class="form-select form-modal">
-					  <option>1</option>
-					  <option>2</option>
-					  <option>3</option>
-					  <option>4</option>
-					</select>
+            <input type="text" class="form-control form-modal" name="">
     			</div>
     		</div>
     		<div class="col-md-6">
     			<div class="modal-inputs">
-    				<label class="title-form">Modelo</label>
+    				<label class="title-form">Problema</label>
     				<input type="text" class="form-control form-modal" name="">
     			</div>
     		</div>
+        <div class="col-md-6">
+          <div class="modal-inputs">
+            <label class="title-form">Orçamento</label>
+            <input type="text" class="form-control form-modal" name="">
+          </div>
+        </div>
     		<div class="col-md-6">
     			<div class="modal-inputs">
     				<label class="title-form">Senha</label>
     				<input type="text" class="form-control form-modal" name="">
     			</div>
     		</div>
+        <div class="col-md-6">
+          <div class="modal-inputs">
+            <label class="title-form">Custo Material</label>
+            <input type="text" class="form-control form-modal" name="">
+          </div>
+        </div>
     	</div>
       </div>
 

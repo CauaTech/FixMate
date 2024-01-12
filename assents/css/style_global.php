@@ -222,4 +222,53 @@
 		color: #ffff;
 		background-color: #00B9FF;
 	}
+	.card-orcamento{
+		margin-top: 25px;
+		border: none;
+		border-radius: 0;
+	}
+	.widgets-icon{
+		font-size: 50px;
+		color: #00B9FF;
+	}
+	.widgets-name{
+		margin-top: 12px;
+		font-size: 15px;
+		font-weight: 500;
+	}
+	.widgets-info{
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.estoque-add{
+		margin-top: 25px;
+	}
+	.btn-estoque{
+		color: #ffff;
+		background-color: #00B9FF
+	}
+	.btn-retirar{
+		height: ;
+		color: #fff;
+		background-color: #b81a1a;
+		margin-top: 5px;
+	}
+	.fix-produto{
+		color: black;
+	}
+	.fix-pelicula{
+		color: black;
+	}
+	.financa-card{
+		border: none;
+		margin-top: 35px;
+	}
+	.financa-table{
+		margin-top: 25px;
+	}
+	.btn-venda{
+		margin-bottom: 15px;
+		color: #ffff;
+		background-color: #00B9FF
+	}
 </style>
