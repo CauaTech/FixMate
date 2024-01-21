@@ -7,6 +7,15 @@ Para mais informações, entre em contato pelo email [cauadias9730@gmail.com].
 Dashboard Front-end [100%]<br>
 Dashboard Back-end [5%]
 
+<hr>
+<div style="display: inline_block">
+  <h3>🚀 Github Linguagens</h3>
+  <img align="center" alt="Magnus-Php" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
+  <img align="center" alt="Magnus-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Magnus-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
+<hr>
+
 # Sistema de Gestão para Assistência Técnica de Celulares
 
 ## Colaboradores do Projeto
