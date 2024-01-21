@@ -5,7 +5,7 @@ Para mais informações, entre em contato pelo email [cauadias9730@gmail.com].
 # FixMate
 
 Dashboard Front-end [100%]<br>
-Dashboard Back-end [5%]
+Dashboard Back-end [10%]
 
 <hr>
 <div style="display: inline_block">
